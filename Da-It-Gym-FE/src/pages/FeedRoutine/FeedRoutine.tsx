@@ -121,6 +121,7 @@ export default function FeedRoutine() {
             likeCount={reduceCount(routine.likeCount)}
             shareCount={reduceCount(routine.shareCount)}
             timeAgo={routine.createdAt.toLocaleString()}
+			label="3분할"
           />
         ))}
       </S.Routines>

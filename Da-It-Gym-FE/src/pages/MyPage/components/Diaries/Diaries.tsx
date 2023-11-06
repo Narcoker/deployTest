@@ -1,4 +1,3 @@
-import React from "react";
 import * as S from "./Diaries.style";
 import FeedPreview from "../../../../components/FeedPreview/FeedPreview";
 
