@@ -1,9 +1,9 @@
 # Build stage
 FROM krmp-d2hub-idock.9rum.cc/goorm/node:16 AS build
 WORKDIR /usr/src/app
-COPY krampoline/package*.json ./
+COPY Da-It-Gym-FE/package*.json ./
 RUN npm ci
-COPY krampoline/ ./
+COPY Da-It-Gym-FE/ ./
 RUN npm run build
 
 # Run stage
