@@ -5,14 +5,14 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
   labels:
     app.kubernetes.io/managed-by: kargocd
-  name: krampoline
+  name: DaItGym
   namespace: default
 spec:
   rules:
     - http:
         paths:
           - backend:
-              serviceName: frontend
+              serviceName: DaItGym
               servicePort: 3000
               path: /
               pathType: Prefix
