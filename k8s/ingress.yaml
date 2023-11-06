@@ -12,7 +12,7 @@ spec:
     - http:
         paths:
           - backend:
-              serviceName: daitgym
+              serviceName: frontend
               servicePort: 3000
               path: /
               pathType: Prefix
